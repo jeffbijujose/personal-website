@@ -1,0 +1,26 @@
+@font-face {
+  font-display: swap;
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/sf-mono/sf-mono-regular.woff2") format("woff2"),
+    url("/fonts/sf-mono/sf-mono-regular.woff") format("woff")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Calibre";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/calibre/calibre-regular.woff2") format("woff2"),
+    url("/fonts/calibre/calibre-regular.woff") format("woff")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Calibre";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/calibre/calibre-semibold.woff2") format("woff2"),
+    url("/fonts/calibre/calibre-semibold.woff") format("woff")
+}

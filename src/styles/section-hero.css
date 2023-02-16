@@ -1,0 +1,65 @@
+#hero-container h5 {
+  color: var(--mc-green);
+  font-family: var(--mc-font-mono);
+  font-size: clamp(var(--mc-fz-sm), 5vw, var(--mc-fz-md));
+  font-weight: 400;
+  padding-left: clamp(var(--mc-fz-xxs), 2.5vw, 26px);
+  padding-bottom: var(--mc-fz-xxl);
+}
+
+#hero-container h1 {
+  color: var(--mc-lightest-slate);
+  font-family: var(--mc-font-sans);
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+#hero-container h2 {
+  color: var(--mc-slate);
+  font-family: var(--mc-font-sans);
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 600;
+  line-height: 0.9;
+}
+
+#hero-about-me-button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#hero-about-me-button-wrapper a {
+  display: block;
+  color: var(--mc-green);
+  background-color: transparent;
+  border: 1px solid var(--mc-green);
+  border-radius: var(--mc-border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--mc-fz-sm);
+  font-family: var(--mc-font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--mc-transition);
+}
+
+#hero-about-me-button-wrapper a:hover {
+  background-color: var(--mc-green-tint);
+  outline: none;
+}
+
+@media (min-width: 480px) {
+
+  #section-hero {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #hero-about-me-button-wrapper {
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+}

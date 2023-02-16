@@ -1,0 +1,29 @@
+#section-experience {
+  margin-top: 200px;
+}
+
+#section-experience-list-container ul {
+  list-style: none;
+  display: grid;
+  padding: 0px;
+  overflow: hidden;
+  gap: 0px 10px;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+#section-experience-list-container ul li {
+  margin-bottom: 10px;
+  font-family: var(--mc-font-mono);
+  font-size: var(--mc-fz-sm);
+  color: var(--mc-slate);
+  line-height: 1.3;
+}
+
+#section-experience-list-container ul li::before {
+  content: "▹";
+  color: var(--mc-green);
+  font-size: var(--mc-fz-md);
+  line-height: 12px;
+  font-family: var(--mc-font-mono);
+  padding-right: var(--mc-fz-xs);
+}

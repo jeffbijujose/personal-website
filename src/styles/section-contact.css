@@ -1,0 +1,60 @@
+#section-contact {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#section-contact form {
+  max-width: 540px;
+}
+
+#section-contact form label {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--mc-light-slate);
+  background-color: transparent;
+  font-family: var(--mc-font-sans);
+  font-size: var(--mc-fz-xl);
+  line-height: 1;
+}
+
+#contact-form-submit-button {
+  color: var(--mc-green);
+  background-color: transparent;
+  border: 1px solid var(--mc-green);
+  border-radius: var(--mc-border-radius);
+  padding: 0.75rem 1.2rem;
+  font-size: var(--mc-fz-sm);
+  font-family: var(--mc-font-mono);
+  line-height: 1;
+  transition: background-color var(--mc-transition);
+}
+
+#contact-form-submit-button:hover {
+  background-color: var(--mc-green-tint);
+  outline: none;
+}
+
+#contact-form-name,
+#contact-form-email,
+#contact-form-subject,
+#contact-form-message {
+  margin-bottom: 40px;
+  color: var(--mc-light-slate);
+  background-color: transparent;
+  border: 1px solid var(--mc-green);
+  border-radius: var(--mc-border-radius);
+  border: 1px solid var(--mc-slate);
+  font-family: var(--mc-font-sans);
+  font-size: var(--mc-fz-xl);
+  padding: 12px 12px 6px;
+  line-height: 1;
+}
+
+#contact-form-name:focus,
+#contact-form-email:focus,
+#contact-form-subject:focus,
+#contact-form-message:focus {
+  border-color: var(--mc-green);
+  outline: none;
+  box-shadow: none;
+}
